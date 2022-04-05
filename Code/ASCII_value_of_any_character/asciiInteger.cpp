@@ -3,17 +3,17 @@ using namespace std;
 
 class A
 {
-    char ch;
+    int a;
 
 public:
     void input()
     {
-        cout << "Enter any characters :" << endl;
-        cin >> ch;
+        cout << "Enter any integer value : " << endl;
+        cin >> a;
     }
     void outPut()
     {
-        cout << "ASCII value of " << ch << " is " << (int)ch << endl;
+        cout << "Integer value of " << a << " is " << (char)a << endl;
     }
 };
 
